@@ -1,0 +1,43 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+body {
+    background-color: ghostwhite;
+    color: ghostwhite;
+}
+
+.wrapper {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container{
+    width: 75%;
+    height: 300px;
+    background-color: #8fbc8f;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px #445444;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.container:after {
+    border-radius: 25px;
+    content: "";
+    padding: 4px 30px;
+    position: absolute;
+    width: 75%;
+    height: 98%;
+    background-color: #545f66;
+    z-index: -1;
+    top: -2%;
+    left: 70%;
+}
+
