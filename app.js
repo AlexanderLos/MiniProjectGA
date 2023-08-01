@@ -1,3 +1,5 @@
+// let qoute = document.getElementById()
+
 window.onload = (e) => {
     function fetchData(id) {
       const apiURL = `https://type.fit/api/quotes`;
@@ -41,4 +43,14 @@ window.onload = (e) => {
   };
   
 
+  // Author
+  // Text
+
+  // What did I do yesterday that helped the development team meet the sprint goal?
+
+  // What will I do today to help the development team meet the sprint goal?
+
+  // Do I see any impediment that prevents me or the development team from meeting the sprint goal?
+
+  
 

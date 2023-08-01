@@ -1,13 +1,55 @@
 * {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: large;
+    font-weight: 400;
+    font-size: medium;
 }
 
 body {
     background-color: ghostwhite;
     color: ghostwhite;
 }
+
+.navGuide nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px 20px;
+    list-style-type: none;
+    color: #445444;
+}
+
+ul li:nth-child(1) {
+    width: 10%;
+    height: 30px;
+    background-color: #8fbc8f;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0 10px 30px #445444;
+    color: ghostwhite;
+  }
+
+  ul li:nth-child(2) {
+    width: 10%;
+    height: 30px;
+    background-color: #8fbc8f;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0 10px 30px #445444;
+    color: ghostwhite;
+  }
+
+  ul li:nth-child(3) {
+    width: 10%;
+    height: 30px;
+    background-color: #8fbc8f;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0 10px 30px #445444;
+    color: ghostwhite;
+  }
+
 
 .wrapper {
     width: 400px;
@@ -16,6 +58,17 @@ body {
     top: 50%;
     left: 50%;
 }
+
+#section1 {
+    font-weight: 400;
+    font-size: larger;
+}
+
+#section1 {
+    font-weight: 400;
+    font-size: larger;
+}
+
 
 .container{
     width: 75%;
@@ -26,6 +79,10 @@ body {
     position: relative;
     border-radius: 25px;
     text-align: center;
+}
+
+#button{
+
 }
 
 .container:after {
