@@ -64,10 +64,16 @@ ul li:nth-child(1) {
     font-size: larger;
 }
 
-#section1 {
+#section2 {
     font-weight: 400;
     font-size: larger;
 }
+
+#section3 {
+    font-weight: 400;
+    font-size: larger;
+}
+
 
 
 .container{
@@ -81,20 +87,56 @@ ul li:nth-child(1) {
     text-align: center;
 }
 
-#button{
-
+.tab1{
+    width: 5%;
+    height: 300px;
+    background-color: #8fbc8f;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px #445444;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
 }
 
-.container:after {
+.tab2{
+    width: 5%;
+    height: 300px;
+    background-color: #8fbc8f;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px #445444;
+    position: relative;
     border-radius: 25px;
-    content: "";
-    padding: 4px 30px;
-    position: absolute;
-    width: 75%;
-    height: 98%;
-    background-color: #545f66;
-    z-index: -1;
-    top: -2%;
-    left: 70%;
+    text-align: center;
+}
+
+#generate {
+    background-color: ghostwhite;
+    border-color: #545f66;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px #445444;
+    display: block;
+    margin: 50px auto 20px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    z-index: 1; 
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.container, .tab1 {
+    width: 40%;
+}
+
+
+.container, .tab2 {
+    width: 40%;
 }
 
