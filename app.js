@@ -309,3 +309,8 @@ if(generate) {
   generate.addEventListener("click", getFortune);
 }
 
+function navigateTo(url) {
+  window.location.href = url;
+};
+
+
